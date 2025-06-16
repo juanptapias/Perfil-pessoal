@@ -1,0 +1,107 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #8b9e9b;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: black;
+}
+
+img {
+    border-radius: 50%;
+    width: 250px;
+    box-shadow: 2px 2px 8px white;
+    margin: 50px;
+
+}
+
+header {
+    display: flex;
+    background-color: #6d7578;
+    margin: 15px;
+    width: 1750px;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px white;
+    align-items: center;
+    font-size: large;
+    flex-direction: row;
+    gap: 25%;
+}
+
+header div{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+header div a{
+    background-color: #c1c0ae;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bio div {
+    display: flex;
+    flex-direction: column;
+    background-color: #6d7578;
+    margin: 10px;
+    width: 70%;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px white;
+}
+
+.tecnicas {
+    display: flex;
+    flex-direction: column;
+    background-color: #6d7578;
+    margin: 10px;
+    width: 40%;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px white;
+}
+
+.socioemocionais {
+    display: flex;
+    flex-direction: column;
+    background-color: #6d7578;
+    margin: 10px;
+    width: 40%;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px white;
+}
+
+button{
+    background-color: #c1c0ae;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+}
